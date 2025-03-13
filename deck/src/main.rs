@@ -36,7 +36,7 @@ impl Deck {
 fn main() {
     let mut deck = Deck::new();
     
-    // deck.shuffle();
+    deck.shuffle();
     // TODO needs error handling!
     let cards = deck.deal(3);
 
